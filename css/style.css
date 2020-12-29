@@ -12,3 +12,19 @@ h1{
 h2{ 
  color: maroon;
 }
+
+ul{
+    list-style: circle inside ;
+}
+
+
+h3{
+
+    border: 2px solid maroon; 
+    color: purple;
+}
+
+ol{
+
+    list-style-position: inside;
+}

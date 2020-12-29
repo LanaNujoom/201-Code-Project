@@ -1,6 +1,6 @@
 'use strict';
 
-
+var l = 0
 var userName=prompt('What is You Name ??')
 // console.log(userName);
 alert ('Hello '+ userName);
@@ -12,6 +12,7 @@ switch(myName.toLowerCase()){
     case 'yes':
     case 'y':
         alert ('That is True My name is Lana');
+        l++
         break ;
     case 'no':
     case 'n':
@@ -29,6 +30,7 @@ switch(myfavoriteColor.toLowerCase()){
     case 'yes':
     case 'y':
         alert ('That is True I Like Red');
+        l++
         break ;
     case 'no':
     case 'n':
@@ -46,6 +48,7 @@ switch(myfavoriteprogrammingLanguage.toLowerCase()){
     case 'yes':
     case 'y':
         alert ('That is True My Favorite Programming Language is Javascripts');
+        l++
         break ;
     case 'no':
     case 'n':
@@ -67,6 +70,7 @@ switch(myfavoritehobby.toLowerCase()){
     case 'no':
     case 'n':
         alert('Fantastic :) My Favorite Sport is Basketball!');
+        l++
         break;
 
         
@@ -80,6 +84,7 @@ switch(myfavoritefood.toLowerCase()){
     case 'yes':
     case 'y':
         alert ('Perefect I love Fettucini');
+        l++
         break ;
     case 'no':
     case 'n':
@@ -92,4 +97,67 @@ switch(myfavoritefood.toLowerCase()){
 
 
 
+
+
+for( var i=0; i<4;  i++){
+
+    var myAge=prompt(' Guess How old am I (20-30)! ');
+     var num1 = parseInt(myAge);
+     console.log(num1);
+
+
+    if (num1 == 25) {
+
+        alert('That is Great , I am 25 years old');
+        l++
+        break;
+
+        } else if(num1 > 25){
+
+        alert('Too High , I am younger ');
+        
+    }
+          else {
+
+        alert(' Too Low, I am older' );
+       
+    }
+
+
+}
+
+
+
+alert('I am 25 Years Old');
+
+var colorArray= ['red','yellow','blue','pink','green'];
+
+
+
+
+for( var x=0; x<6; x++){
+
+    var colorName= prompt( 'Can you guess one of the colors I like !').toLowerCase();
+
+    if  (colorName === colorArray[0]|| colorName === colorArray[1]||colorName === colorArray[2] || colorName === colorArray[3]|| colorName === colorArray[4] ) {
+        alert (' That is true');
+        l++
+        break;
+    } else {
+        alert ( 'Keep Trying Please');
+
+    }
+
+
+
+
+}
+console.log(colorName.toLowerCase());
+
+alert('I like red, yellow,blue,pink and green :D ');
+
+
+alert(l + ' Out of 7 is Your Score');       
+
 alert ('Welcome to my site '+ userName);
+

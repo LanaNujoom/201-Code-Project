@@ -11,10 +11,14 @@ h1{
 
 h2{ 
  color: maroon;
+ border: 2px solid purple; 
+ display: inline-block;
+ padding: 5px;
 }
 
 ul{
     list-style: circle inside ;
+    
 }
 
 
@@ -22,9 +26,37 @@ h3{
 
     border: 2px solid maroon; 
     color: purple;
+    padding: 4px;
+   
+
 }
 
 ol{
 
     list-style-position: inside;
+}
+
+ol>li{
+    color:brown;
+
+}
+
+.border-style-dotted{
+
+    border-style:dotted;
+}
+
+.border-style-inline{
+    display: inline;
+}
+
+header{
+    width: 100%;
+}
+
+.center-item{
+
+    margin:auto;
+    display:block;
+
 }

@@ -170,41 +170,38 @@ sixthQuestion();
 
 
 
-function seventhQuestion() {
+function seventhQues(){
 
     var colorArray = ['red', 'yellow', 'blue', 'pink', 'green'];
 
 
 
 
-    for (var x = 0; x < 6; x++) {
+for (var x = 0; x < 6; x++) {
 
-        var colorName = prompt('Can you guess one of the colors I like !').toLowerCase();
+    var colorName = prompt('Can you guess one of the colors I like !').toLowerCase();
 
-        if (colorName === colorArray[0] || colorName === colorArray[1] || colorName === colorArray[2] || colorName === colorArray[3] || colorName === colorArray[4]) {
-            alert(' That is true');
-            counter++
-            break;
-        } else {
-            alert('Keep Trying Please');
-
-        }
-
-
-
+    if (colorName === colorArray[0] || colorName === colorArray[1] || colorName === colorArray[2] || colorName === colorArray[3] || colorName === colorArray[4]) {
+        alert(' That is true');
+        counter++
+        break;
+    } else {
+        alert('Keep Trying Please');
 
     }
 
 
-    alert('I like red, yellow,blue,pink and green :D ');
 
 
 }
 
-seventhQuestion();
+
+alert('I like red, yellow,blue,pink and green :D ');
+
+}
 
 
-
+seventhQues();
 
 
 alert(counter + ' Out of 7 is Your Score');
